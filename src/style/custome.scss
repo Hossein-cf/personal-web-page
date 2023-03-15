@@ -1,0 +1,38 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$body-bg: #0a192f;
+//$nav-link-color:red ;
+//$nav-link-color:green;
+$navbar-light-toggler-border-color:#a8b2d1;
+$navbar-light-color: #a8b2d1;
+$navbar-light-hover-color: #64FFDA;
+$navbar-light-active-color: #64FFDA;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// Then add additional custom code here
+body {
+  --nevy: #0a192f;
+  --light-slate: #a8b2d1;
+  --green: #64FFDA;
+  --lightest-slate: #ccd6f6;
+  --slate: #8892b0;
+
+  color: var(--slate) !important;
+
+  .text-green {
+    color: var(--green) !important;
+  }
+
+  .text-lightest-slate {
+    color: var(--lightest-slate) !important;
+  }
+
+  .text-slate {
+    color: var(--slate) !important;
+  }
+}
+
+
