@@ -2,7 +2,7 @@
   <section id="about">
     <div style="height: 100vh" class="d-flex justify-content-between align-items-center">
       <div style="max-width: 450px" class="text-start">
-        <h3 class="text-lightest-slate"><span class="text-green">01.</span> About Me</h3>
+        <h3 class="text-lightest-slate"><span class="text-info">01.</span> About Me</h3>
         <p>
           Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web
           development
@@ -43,5 +43,17 @@
 </script>
 
 <style scoped>
-
+ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+}
+li:before{
+  content: "▹";
+  color: var(--green);
+}
 </style>

@@ -2,7 +2,7 @@
   <section id="experience">
     <div style="height: 100vh ;" class="d-flex justify-content-center align-items-center">
       <div style="max-width: 600px" class="text-start">
-        <h3 class="text-lightest-slate"><span class="text-green">02.</span> Where I’ve Worked</h3>
+        <h3 class="text-lightest-slate"><span class="text-info">02.</span> Where I’ve Worked</h3>
         <div class="d-flex align-items-start">
           <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"

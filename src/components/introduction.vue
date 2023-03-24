@@ -2,7 +2,7 @@
   <section id="introduction" >
     <div style="height: 100vh ;" class="d-flex justify-content-center align-items-center">
       <div class="text-start" >
-        <h6 class="text-green">Hi, my name is</h6>
+        <h6 class="text-info">Hi, my name is</h6>
         <h2 class="text-lightest-slate">Hossein Shakeri.</h2>
         <h2>I Build things for web.</h2>
         <p style=" max-width: 540px;

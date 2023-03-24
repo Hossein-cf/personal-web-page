@@ -2,6 +2,8 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+$secondary: #112240;
+$info: #64FFDA;
 $body-bg: #0a192f;
 //$nav-link-color:red ;
 //$nav-link-color:green;
@@ -22,9 +24,9 @@ body {
 
   color: var(--slate) !important;
 
-  .text-green {
-    color: var(--green) !important;
-  }
+  //.text-green {
+  //  color: var(--green) !important;
+  //}
 
   .text-lightest-slate {
     color: var(--lightest-slate) !important;

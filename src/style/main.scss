@@ -25,3 +25,18 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.project {
+  transition: transform 300ms;
+  .card-title{
+    color: var(--lightest-slate);
+  }
+}
+
+.project:hover {
+  transform: translateY(-3px);
+  .card-title{
+    color: var(--bs-info);
+  }
+
+}
