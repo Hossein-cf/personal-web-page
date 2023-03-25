@@ -1,10 +1,49 @@
 <template>
   <section id="works">
-    <div style="min-height: 100vh ;" class="d-flex justify-content-center align-items-center">
+    <div style="min-height: 100vh ;" class="vstack gap-5">
       <div>
         <h3 class="text-lightest-slate"><span class="text-info">03.</span> Some Things I’ve Built</h3>
-
       </div>
+      <div class="hstack">
+        <div style="width: 100%">
+          <div class="mb-3 ">
+            <div class="card-container  g-0">
+              <div class="box" style="width: 50%">
+                <img src="../assets/image.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class=" text-end box overlay" >
+                <div >
+
+                  <div>
+                    <h6 class="text-info">Featured Project</h6>
+                    <h3 style="color: var(--lightest-slate)">Halcyon Theme</h3>
+
+                    <p class="p-3" style="border-radius: 7px; background: var(--bs-secondary)">A minimal, dark blue
+                      theme for VS Code, Sublime Text, Atom, iTerm, and more.
+                      Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+
+                  </div>
+                  <div class="border-none ">
+                    <ul class="ul-li-inline">
+                      <li>Next.js</li>
+                      <li>Tailwind CSS</li>
+                      <li>Firebase</li>
+                    </ul>
+                    <ul class="ul-li-inline" style="color: var(--lightest-slate)">
+                      <li>
+                        <i class="bi bi-github"/></li>
+                      <li>
+                        <i class="bi bi-box-arrow-up-right "/></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
     <div style="min-height: 100vh ;" class="vstack gap-5">
       <div class="text-center">
@@ -33,7 +72,7 @@
                 Firebase, and Tailwind CSS</p>
             </div>
             <div class="card-footer">
-              <ul>
+              <ul class="ul-li-inline">
                 <li>Next.js</li>
                 <li>Tailwind CSS</li>
                 <li>Firebase</li>
@@ -52,18 +91,37 @@
 </script>
 
 <style scoped>
-.card-footer li {
+
+.ul-li-inline {
+  padding: 0;
+}
+
+.ul-li-inline > li {
   margin: 3px;
   display: inline;
 }
 
-.card-footer ul {
-  padding: 0;
+/*.ul-li-inline>li::after{*/
+/*  content: ',';*/
+/*}*/
+
+.card-container {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 30px;
+  /*border: 1px solid red;*/
+}
+
+.box {
+  position: absolute;
 
 }
 
-
-
-
-
+.overlay {
+  z-index: 10;
+  right: 0;
+  width:60%
+}
 </style>
