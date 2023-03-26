@@ -1,12 +1,12 @@
 <template>
-  <div class="vstack" style="min-height: 100vh;">
-    <div style="position: sticky">
+  <div>
+    <header>
       <HeaderMenu/>
-    </div>
-    <slot/>
-    <div class="mt-auto">
-      <Footer/>
-    </div>
+    </header>
+
+    <router-view></router-view>
+
+
   </div>
 </template>
 

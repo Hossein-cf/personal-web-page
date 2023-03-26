@@ -1,27 +1,20 @@
 <template>
 
-  <div class=" fixed-bottom-left contact">
+  <div class="d-none d-md-block fixed-bottom-left contact">
     <div>
-      <ul>
-        <li><i class="bi bi-instagram"></i></li>
-        <li><i class="bi bi-facebook"></i></li>
-        <li><i class="bi bi-twitter"></i></li>
-        <li><i class="bi bi-linkedin"></i></li>
-        <li><i class="bi bi-github"></i></li>
-      </ul>
-
+      <SocialMediaIcons/>
     </div>
-
   </div>
-  <div class="fixed-bottom-right contact">
+  <div class=" d-none d-md-block fixed-bottom-right contact">
     <div>
       <a href="mailto:h.shaker2001@gmail.com ">
         h.shaker2001@gmail.com
       </a>
     </div>
   </div>
-  <div class="container-fluid fixed-bottom" style=" height: 2.5rem;">
-    <div class="d-flex justify-content-center align-items-center h-100">
+  <div style="background: var(--nevy); height: 2.5rem;">
+    <div class="text-center ">
+      <SocialMediaIcons class=" d-flex flex-row d-md-none align-items-center justify-content-center gap-3"/>
       <div>
         Built by Hossein Shakeri
       </div>
@@ -29,10 +22,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "footer"
-}
+<script setup lang="ts">
+
+import SocialMediaIcons from "@/components/social-media-icons.vue";
 </script>
 
 <style scoped>
@@ -62,11 +54,12 @@ export default {
   writing-mode: vertical-lr;
   text-orientation: mixed;
   margin: 10px auto;
-  color:var(--light-slate);
+  color: var(--light-slate);
   text-decoration: none;
   transition: transform 300ms;
 }
-.contact a:hover{
+
+.contact a:hover {
   color: var(--bs-info);
   transform: translateY(-3px);
 }
@@ -93,8 +86,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-
 
 
 </style>

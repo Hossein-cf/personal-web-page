@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <div style="height: 100vh" class="d-flex justify-content-between align-items-center">
+    <div style="height: 100vh" class="d-flex justify-content-between align-items-center flex-column flex-md-row">
       <div style="max-width: 450px" class="text-start">
         <h3 class="text-lightest-slate"><span class="text-info">01.</span> About Me</h3>
         <p>
@@ -43,7 +43,7 @@
 </script>
 
 <style scoped>
-ul{
+ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -52,7 +52,8 @@ ul{
   margin: 20px 0px 0px;
   overflow: hidden;
 }
-li:before{
+
+li:before {
   content: "▹";
   color: var(--green);
 }

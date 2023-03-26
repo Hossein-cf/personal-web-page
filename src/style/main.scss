@@ -1,14 +1,26 @@
 @import "custome.css";
 
-#content{
+#content {
   width: calc(100vw - 10px);
   height: 100vh;
-  main{
-    width: 50vw;
+
+  main {
+
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
   }
+
 }
+
+@media (min-width: 992px) {
+  #content {
+    main {
+      width: 50vw;
+    }
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 
@@ -28,18 +40,21 @@
 
 .project {
   transition: transform 300ms;
-  .card-title{
+
+  .card-title {
     color: var(--lightest-slate);
   }
 }
 
 .project:hover {
   transform: translateY(-3px);
-  .card-title{
+
+  .card-title {
     color: var(--bs-info);
   }
 
 }
-.border-none{
-  border:none;
+
+.border-none {
+  border: none;
 }
