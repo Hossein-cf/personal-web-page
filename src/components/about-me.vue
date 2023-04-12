@@ -4,7 +4,7 @@
             <div style="max-width: 500px" class="text-start">
                 <h3 class="text-lightest-slate"><span class="text-info">01.</span> About Me</h3>
                 <p>
-                    Hello, my name is Hossein, and I was born in 2001. In 2018, In 2018, I started studying at the
+                    Hello, my name is Hossein, and I was born in 2001. In 2018, I started studying at the
                     university, and soon after, I began my journey into programming. My first programming language was
                     Java, but I eventually switched to C# and the .NET Core framework.
                 </p>
