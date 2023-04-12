@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <header>
-      <HeaderMenu/>
-    </header>
+    <div >
+        <header>
+            <HeaderMenu/>
+        </header>
 
-    <router-view></router-view>
+        <router-view></router-view>
 
 
-  </div>
+    </div>
 </template>
 
 <script setup>

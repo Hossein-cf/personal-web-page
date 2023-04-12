@@ -57,3 +57,25 @@
 .border-none {
   border: none;
 }
+
+
+.links {
+  a, li {
+    color: var(--light-slate);
+    transition: transform 300ms;
+    text-decoration: none;
+  }
+  i{
+    font-size: 1.2rem;
+      }
+
+}
+
+.links {
+  a:hover, .links li:hover {
+    color: var(--bs-info) !important;
+    transform: translateY(-3px);
+  }
+}
+
+
