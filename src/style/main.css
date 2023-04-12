@@ -57,7 +57,7 @@
   font-size: 1.2rem;
 }
 
-.links a:hover, .links .links li:hover {
+.links a:hover, .links li:hover {
   color: var(--bs-info) !important;
   transform: translateY(-3px);
 }

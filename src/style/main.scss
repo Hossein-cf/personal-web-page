@@ -65,14 +65,15 @@
     transition: transform 300ms;
     text-decoration: none;
   }
-  i{
+
+  i {
     font-size: 1.2rem;
-      }
+  }
 
 }
 
 .links {
-  a:hover, .links li:hover {
+  a:hover,  li:hover {
     color: var(--bs-info) !important;
     transform: translateY(-3px);
   }
