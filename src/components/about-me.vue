@@ -1,41 +1,48 @@
 <template>
-  <section id="about">
-    <div style="height: 100vh" class="d-flex justify-content-between align-items-center flex-column flex-md-row">
-      <div style="max-width: 450px" class="text-start">
-        <h3 class="text-lightest-slate"><span class="text-info">01.</span> About Me</h3>
-        <p>
-          Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web
-          development
-          started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom
-          reblog button taught me a lot about HTML & CSS!
-        </p>
-        <p>
-          Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge
-          corporation, and a student-led design studio. My main focus these days is building accessible, inclusive
-          products and digital experiences at Upstatement for a variety of clients.
-        </p>
-        <p>
-          I also recently launched a course that covers everything you need to build a web app with the Spotify API
-          using
-          Node & React.
-        </p>
-        <p>
-          Here are a few technologies I’ve been working with recently:
-        </p>
-        <ul>
-          <li>WordPress</li>
-          <li>Eleventy</li>
-          <li>TypeScript</li>
-          <li>Node.js</li>
-          <li>React</li>
-          <li>JavaScript</li>
-        </ul>
-      </div>
-      <div style="max-width: 450px">
-        image
-      </div>
-    </div>
-  </section>
+    <section id="about">
+        <div style="height: 100vh" class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+            <div style="max-width: 500px" class="text-start">
+                <h3 class="text-lightest-slate"><span class="text-info">01.</span> About Me</h3>
+                <p>
+                    Hello, my name is Hossein, and I was born in 2001. In 2018, In 2018, I started studying at the
+                    university, and soon after, I began my journey into programming. My first programming language was
+                    Java, but I eventually switched to C# and the .NET Core framework.
+                </p>
+                <p>
+                    Initially, I focused on developing desktop applications, but my interest shifted towards web
+                    development after a few months. It took me some time, but eventually, I fully grasped the concepts
+                    of web applications and grew to love developing them. Now, I'm a full-stack developer with
+                    experience in Vue.js, Bootstrap, HTML, CSS, JS, and TS.
+                </p>
+                <p>
+                    Here are a few technologies I’ve been working with recently:
+                </p>
+                <ul>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>.Net core</li>
+                    <li>EntityFramework</li>
+                    <li>Sql Server</li>
+                    <li>HTML & CSS & JS</li>
+                    <li>TypeScript</li>
+                    <li>Vue.js</li>
+                    <li>Bootstrap</li>
+                    <li>Devextreme</li>
+                </ul>
+                <br/>
+                <p>
+                    As a developer, I am passionate about creating clean, functional, and user-friendly applications. I
+                    am constantly learning and exploring new technologies and approaches to stay up to date with the
+                    latest industry trends. I enjoy working on challenging projects that push me to expand my skills and
+                    abilities. If you're looking for a dedicated and skilled developer, I'm here to help!
+                </p>
+
+            </div>
+            <div style="max-width: 450px">
+                image
+            </div>
+        </div>
+    </section>
 </template>
 
 <script setup>
@@ -44,17 +51,19 @@
 
 <style scoped>
 ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-  gap: 0px 10px;
-  padding: 0px;
-  margin: 20px 0px 0px;
-  overflow: hidden;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
 }
 
 li:before {
-  content: "▹";
-  color: var(--green);
+    content: "▹";
+    color: var(--green);
+    /*margin-left: 2rem;*/
+    margin-right: 0.5rem;
 }
 </style>
