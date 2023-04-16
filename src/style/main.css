@@ -1,7 +1,19 @@
 @import "custome.css";
+@font-face {
+  font-family: "Fira Code";
+  src: url("../assets/fonts/Fira_Code/static/FiraCode-Regular.ttf");
+}
+@font-face {
+  font-family: "Archvo";
+  src: url("../assets/fonts/Archivo/static/Archivo/Archivo-Regular.ttf");
+}
 #content {
   width: calc(100vw - 10px);
   height: 100vh;
+  font-family: "Archvo", monospace;
+  font-size: 1.4rem;
+  letter-spacing: 0.08rem;
+  word-spacing: -0.09rem;
 }
 #content main {
   width: 90vw;
@@ -15,19 +27,16 @@
   }
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--nevy);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--slate);
+  border-radius: 5px;
 }
 
 .project {
@@ -53,13 +62,53 @@
   transition: transform 300ms;
   text-decoration: none;
 }
-.links i {
-  font-size: 1.2rem;
-}
 
 .links a:hover, .links li:hover {
   color: var(--bs-info) !important;
   transform: translateY(-3px);
+}
+
+.font-fira-code {
+  font-family: "Fira Code", "SF Mono", "Fira Mono", monospace, monospace;
+  font-size: medium;
+}
+
+.h1-xxl {
+  font-size: 4.5rem;
+  font-weight: 700;
+  word-spacing: 0.2rem;
+}
+
+.font-xsm {
+  font-size: 0.8rem;
+}
+
+.font-sm {
+  font-size: 1rem;
+}
+
+.font-md {
+  font-size: 1.2rem;
+}
+
+.font-lg {
+  font-size: 1.4rem;
+}
+
+.font-xl {
+  font-size: 1.6rem;
+}
+
+.font-xxl {
+  font-size: 1.6rem;
+}
+
+.font-3xl {
+  font-size: 2.2rem;
+}
+
+.font-4xl {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */

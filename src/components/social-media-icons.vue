@@ -1,5 +1,5 @@
 <template>
-    <ul class="gap-3">
+    <ul  class="gap-3 font-lg">
         <li><a href="#"> <i class="bi bi-instagram" /> </a></li>
         <li><a href="#"><i class="bi bi-twitter"></i></a></li>
         <li><a href="https://www.linkedin.com/in/hossein-shakeri-06235b258/"><i class="bi bi-linkedin"/></a></li>

@@ -7,7 +7,6 @@
       <Experience/>
       <Works/>
       <Contact/>
-      <Footer/>
 
     </main>
   </div>
