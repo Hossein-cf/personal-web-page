@@ -22,15 +22,23 @@ import GridLoader from "@/components/Animation/GridLoader.vue";
 
 const showMainContent = ref(false)
 const loaderVisible = ref(true);
-onMounted(() => {
+// onMounted(() => {
+//     setTimeout(() => {
+//         loaderVisible.value = false;
+//         setTimeout(() => {
+//             showMainContent.value = true;
+//         }, 500)
+//     }, 1000)
+//
+// })
+window.onload=function (){
     setTimeout(() => {
         loaderVisible.value = false;
         setTimeout(() => {
             showMainContent.value = true;
         }, 500)
     }, 1000)
-
-})
+}
 </script>
 <style>
 
