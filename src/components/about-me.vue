@@ -1,7 +1,7 @@
 <template>
     <section id="about">
-        <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
-            <div style="max-width: 800px" class="text-start">
+        <div style="min-height: 100vh" class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+            <div style="max-width: 850px" class="text-start">
                 <div>
                     <h1 class="text-lightest-slate font-xl fw-bold"><span
                             class="text-info font-lg font-fira-code">01.</span> About Me</h1>

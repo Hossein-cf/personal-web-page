@@ -1,5 +1,5 @@
 @import "custome.css";
-
+@import "animation";
 @font-face {
   font-family: "Fira Code";
   src: url('../assets/fonts/Fira_Code/static/FiraCode-Regular.ttf') ;
@@ -16,21 +16,22 @@
 
 
 #content {
-  width: calc(100vw - 10px);
-  height: 100vh;
+
+
+
+}
+
+main {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  //width: calc(100vw - 10px);
+  //height: 90vh;
   font-family: "Archvo", monospace;
   font-size: 1.4rem;
   letter-spacing: 0.08rem;
   word-spacing: -0.09rem;
-
-  main {
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
 }
-
 //p {
 //  font-size: 1.2rem;
 //}
@@ -89,7 +90,14 @@
     transition: transform 300ms;
     text-decoration: none;
   }
+}
 
+.anchor-color-white {
+  color: var(--light-slate);
+}
+
+.anchor-color-white:hover {
+  color: var(--green);
 
 }
 
@@ -143,5 +151,7 @@
 .font-4xl {
   font-size: 3rem;
 }
+
+
 
 

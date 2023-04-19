@@ -1,12 +1,14 @@
 <template>
-    <header>
-        <HeaderMenu/>
-    </header>
+    <div class="d-flex flex-column">
+        <div style="height: 5vh">
+            <HeaderMenu/>
+        </div>
+            <RouterView/>
+        <div style="height: 5vh">
+            <Footer/>
+        </div>
+    </div>
 
-    <router-view></router-view>
-    <footer>
-        <Footer/>
-    </footer>
 </template>
 
 <script setup>

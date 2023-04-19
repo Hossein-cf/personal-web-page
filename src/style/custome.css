@@ -10770,7 +10770,9 @@ textarea.form-control-lg {
   }
 }
 body {
+  --dark-nevy: #020c1b;
   --nevy: #0a192f;
+  --nevy-shadow: rgba(2,12,27,0.7);
   --light-slate: #a8b2d1;
   --green: #64FFDA;
   --lightest-slate: #ccd6f6;

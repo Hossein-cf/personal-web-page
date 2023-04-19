@@ -1,6 +1,6 @@
 <template>
     <section id="contact">
-        <div style="height: 100vh" class="d-flex justify-content-center align-items-center">
+        <div style="min-height: 50vh" class="d-flex justify-content-center align-items-center">
             <div style="max-width: 800px" class="text-center">
                 <h1 class="text-info font-fira-code">04. What’s Next?</h1>
                 <h1 class="text-lightest-slate font-4xl fw-bolder">Get In Touch</h1>
@@ -10,7 +10,9 @@
                     question, want to discuss a potential project, or just want to say hi. I will do my best to respond
                     as soon as possible. Looking forward to hearing from you!
                 </p>
-                <button class="btn btn-outline-info font-fira-code mt-4">Say Hello</button>
+                <a href="mailto:h.shaker2001@gmail.com ">
+                    <button class="btn btn-outline-info font-fira-code mt-4">Say Hello</button>
+                </a>
             </div>
         </div>
 
