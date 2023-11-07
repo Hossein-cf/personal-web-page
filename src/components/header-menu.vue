@@ -1,19 +1,20 @@
 <template>
     <div class=" header "
          :class="[{ 'is-hidden': !showHeader },{'fixed-top':showHeader},{'box-shadow-none':disableBoxShadow},{'box-shadow-show':!disableBoxShadow}]">
-        <nav class="navbar navbar-expand-md ms-5 me-5 pt-2" style="color: var(--light-slate);background: var(--nevy);">
+        <nav class="navbar navbar-expand-md ms-lg-4 me-lg-4 pt-2"
+             style="color: var(--light-slate);background: var(--nevy);">
             <div class="container-fluid">
                 <TransitionGroup name="fade" appear>
-                <template v-if="showHeader">
+                    <template v-if="showHeader">
 
-                    <a class=" navbar-brand" href="#">
-                        <img :src="logo" alt="" width="40" height="40">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </template>
+                        <a class=" navbar-brand" href="#">
+                            <img :src="logo" alt="" width="40" height="40">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </template>
 
                 </TransitionGroup>
                 <div class=" collapse navbar-collapse links" id="navbarNav">

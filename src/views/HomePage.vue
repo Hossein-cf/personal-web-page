@@ -51,7 +51,6 @@ function handleScroll() {
     const viewportHeight = window.innerHeight;
     sectionRefs
     sectionRefs1
-    debugger
     const sectionRect1 = sectionRefs1.value.getBoundingClientRect();
 
     if (sectionRect1.top < viewportHeight && sectionRect1.bottom >= 0) {

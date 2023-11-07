@@ -11,7 +11,7 @@
                     </h1>
                     <p class="font-md">
                         As a Full-Stack Developer at Bonyan Fan, I am responsible for designing, developing, and
-                        maintaining web applications using Dot net core and Vue.js. My primary responsibilities include:
+                        maintaining web applications using .Net core and Vue.js. My primary responsibilities include:
                     </p>
                     <ul class="font-md">
                         <li>

@@ -18,7 +18,9 @@
                     <SocialMediaIcons
                             class=" d-flex flex-row d-md-none align-items-center justify-content-center gap-3 links"/>
                     <div>
-                        Built by Hossein Shakeri
+                        <h6 class="font-sm">
+                            Built by Hossein Shakeri
+                        </h6>
                     </div>
                 </div>
             </div>

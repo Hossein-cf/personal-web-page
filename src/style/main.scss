@@ -1,5 +1,6 @@
 @import "custome.css";
 @import "animation";
+
 @font-face {
   font-family: "Fira Code";
   src: url('../assets/fonts/Fira_Code/static/FiraCode-Regular.ttf') ;
@@ -18,7 +19,6 @@
 #content {
 
 
-
 }
 
 main {
@@ -32,17 +32,115 @@ main {
   letter-spacing: 0.08rem;
   word-spacing: -0.09rem;
 }
+
 //p {
 //  font-size: 1.2rem;
 //}
 
-@media (min-width: 992px) {
-  #content {
-    main {
-      width: 50vw;
-    }
+@media screen and (max-width: 1300px) {
+  main {
+    width: 78vw !important;
+  }
+  .h1-xxl {
+    font-size: 3.5rem !important;
   }
 }
+
+@media screen and (max-width: 992px) {
+  //#content {
+  main {
+    width: 70vw;
+  }
+  //}
+
+  .h1-xxl {
+    font-size: 2rem !important;
+  }
+  .font-xsm {
+    font-size: 0.6rem !important;
+  }
+
+  .font-sm {
+    font-size: 0.8rem !important;
+  }
+
+  .font-md {
+    font-size: 1rem !important;
+  }
+
+  .font-lg {
+    font-size: 1.2rem !important;
+  }
+
+  .font-xl {
+    font-size: 1.4rem !important;
+  }
+
+  .font-xxl {
+    font-size: 1.6rem !important;
+  }
+
+  .font-3xl {
+    font-size: 2rem !important;
+  }
+
+  .font-4xl {
+    font-size: 1.8rem !important;
+  }
+  .overlay {
+    width: 100% !important;
+  }
+
+  .box {
+    position: relative!important;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  main {
+    width: 90vw !important;
+  }
+  .h1-xxl {
+    font-size: 1.9rem !important;
+  }
+  .font-xsm {
+    font-size: 0.5rem !important;
+  }
+
+  .font-sm {
+    font-size: 0.7rem !important;
+  }
+
+  .font-md {
+    font-size: 0.9rem !important;
+  }
+
+  .font-lg {
+    font-size: 1.1rem !important;
+  }
+
+  .font-xl {
+    font-size: 1.3rem !important;
+  }
+
+  .font-xxl {
+    font-size: 1.5rem !important;
+  }
+
+  .font-3xl {
+    font-size: 1.6rem !important;
+  }
+
+  .font-4xl {
+    font-size: 1.7rem !important;
+  }
+  .overlay {
+    width: 100% !important;
+  }
+
+}
+
+
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -151,6 +249,23 @@ main {
 .font-4xl {
   font-size: 3rem;
 }
+
+.box {
+  position: absolute;
+}
+
+.overlay {
+  z-index: 10;
+  width: 45%
+}
+.top-10{
+  top: 10%;
+}
+
+.right-0 {
+  right: 0;
+}
+
 
 
 
