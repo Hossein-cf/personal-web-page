@@ -46,6 +46,14 @@ main {
   word-spacing: -0.09rem;
 }
 
+@media screen and (min-width: 1300px) {
+  .card-container {
+    height: 400px !important;
+  }
+  main {
+    width: 60vw !important;
+  }
+}
 @media screen and (max-width: 1300px) {
   main {
     width: 78vw !important;
@@ -53,8 +61,14 @@ main {
   .h1-xxl {
     font-size: 3.5rem !important;
   }
+  .card-container {
+    height: 400px !important;
+  }
 }
 @media screen and (max-width: 992px) {
+  .card-container {
+    height: max-content !important;
+  }
   main {
     width: 70vw;
   }

@@ -37,6 +37,15 @@ main {
 //  font-size: 1.2rem;
 //}
 
+@media screen and (min-width: 1300px) {
+
+  .card-container{
+    height: 400px !important;
+  }
+  main {
+    width: 60vw !important;
+  }
+}
 @media screen and (max-width: 1300px) {
   main {
     width: 78vw !important;
@@ -44,9 +53,15 @@ main {
   .h1-xxl {
     font-size: 3.5rem !important;
   }
+  .card-container{
+    height: 400px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .card-container{
+    height: max-content !important;
+  }
   //#content {
   main {
     width: 70vw;
@@ -97,6 +112,7 @@ main {
 
 }
 @media screen and (max-width: 576px) {
+
   main {
     width: 90vw !important;
   }
