@@ -40,7 +40,8 @@
                             <li class="nav-item d-inline-block">
                                 <router-link class="nav-link text-info font-fira-code"
                                              style="border: 1px solid var(--green);border-radius: 3px;"
-                                             :to="{name:'second'}"
+                                             target="_blank"
+                                             :to="'/english.pdf'"
                                 >Resume
                                 </router-link>
                             </li>
