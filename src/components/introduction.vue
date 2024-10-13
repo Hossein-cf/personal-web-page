@@ -7,7 +7,7 @@
                     <h1 class="text-lightest-slate h1-xxl">Hossein Shakeri.</h1>
                     <h1 class="h1-xxl">I Build things for the web.</h1>
                     <p style="max-width:450px" class="font-md">
-                        I'm a fullstack developer with <span class="text-info text-uppercase "> TREE </span> years of
+                        I'm a fullstack developer with <span class="text-info text-uppercase "> THREE </span> years of
                         experience building web
                         applications. I specialize in <span class="text-info text-uppercase"> full-stack </span>
                         development,
