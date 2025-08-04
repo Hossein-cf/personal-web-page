@@ -41,7 +41,7 @@
                                 <router-link class="nav-link text-info font-fira-code"
                                              style="border: 1px solid var(--green);border-radius: 3px;"
                                              target="_blank"
-                                             :to="'/english.pdf'"
+                                             :to="'/HosseinShakeriResume.pdf'"
                                 >Resume
                                 </router-link>
                             </li>
