@@ -39,13 +39,14 @@ main {
 
 @media screen and (min-width: 1300px) {
 
-  .card-container{
+  .card-container {
     height: 400px !important;
   }
   main {
     width: 60vw !important;
   }
 }
+
 @media screen and (max-width: 1300px) {
   main {
     width: 78vw !important;
@@ -53,13 +54,13 @@ main {
   .h1-xxl {
     font-size: 3.5rem !important;
   }
-  .card-container{
+  .card-container {
     height: 400px !important;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .card-container{
+  .card-container {
     height: max-content !important;
   }
   //#content {
@@ -69,6 +70,9 @@ main {
   //}
 
   .h1-xxl {
+    font-size: 2rem !important;
+  }
+  .h1-xl {
     font-size: 2rem !important;
   }
   .font-xsm {
@@ -107,10 +111,11 @@ main {
   }
 
   .box {
-    position: relative!important;
+    position: relative !important;
   }
 
 }
+
 @media screen and (max-width: 576px) {
 
   main {
@@ -119,6 +124,10 @@ main {
   .h1-xxl {
     font-size: 1.9rem !important;
   }
+  .h1-xl {
+    font-size: 2rem !important;
+  }
+
   .font-xsm {
     font-size: 0.5rem !important;
   }
@@ -155,7 +164,6 @@ main {
   }
 
 }
-
 
 
 ::-webkit-scrollbar {
@@ -233,6 +241,12 @@ main {
   word-spacing: 0.2rem;
 }
 
+.h1-xl {
+  font-size: clamp(2.9rem, 3.5rem, 4rem);
+  font-weight: 700;
+  word-spacing: 0.2rem;
+}
+
 
 .font-xsm {
   font-size: 0.8rem;
@@ -274,7 +288,8 @@ main {
   z-index: 10;
   width: 45%
 }
-.top-10{
+
+.top-10 {
   top: 10%;
 }
 
@@ -282,7 +297,9 @@ main {
   right: 0;
 }
 
-
+.text-align-justify {
+  text-align: justify;
+}
 
 
 

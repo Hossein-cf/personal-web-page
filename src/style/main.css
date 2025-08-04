@@ -75,6 +75,9 @@ main {
   .h1-xxl {
     font-size: 2rem !important;
   }
+  .h1-xl {
+    font-size: 2rem !important;
+  }
   .font-xsm {
     font-size: 0.6rem !important;
   }
@@ -112,6 +115,9 @@ main {
   }
   .h1-xxl {
     font-size: 1.9rem !important;
+  }
+  .h1-xl {
+    font-size: 2rem !important;
   }
   .font-xsm {
     font-size: 0.5rem !important;
@@ -202,6 +208,12 @@ main {
   word-spacing: 0.2rem;
 }
 
+.h1-xl {
+  font-size: 3.5rem;
+  font-weight: 700;
+  word-spacing: 0.2rem;
+}
+
 .font-xsm {
   font-size: 0.8rem;
 }
@@ -249,6 +261,10 @@ main {
 
 .right-0 {
   right: 0;
+}
+
+.text-align-justify {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=main.css.map */
