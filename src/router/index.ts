@@ -1,3 +1,4 @@
+// @ts-ignore
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomePage.vue'
 import SecondPage from '../views/SecondPage.vue'
