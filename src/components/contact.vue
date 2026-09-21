@@ -1,9 +1,9 @@
 <template>
   <section id="contact">
-    <div style="min-height: 50vh" class="d-flex justify-content-center align-items-center">
-      <div style="max-width: 800px" class="text-center">
-        <h1 class="text-info font-fira-code">04. What’s Next?</h1>
-        <h1 class="text-lightest-slate font-4xl fw-bolder">Get In Touch</h1>
+    <div class="min-h-[50vh] flex justify-center items-center">
+      <div class="max-w-[800px] text-center">
+        <h1 class="text-green font-fira-code">04. What's Next?</h1>
+        <h1 class="text-lightest-slate font-4xl font-extrabold">Get In Touch</h1>
         <p class="font-md text-align-justify">
           I am currently on the lookout for new opportunities in the field of development, and I am always
           open to new connections and collaborations. Feel free to drop me a line anytime - whether you have a
@@ -11,7 +11,7 @@
           as soon as possible. Looking forward to hearing from you!
         </p>
         <a href="mailto:h.shaker2001@gmail.com ">
-          <button class="btn btn-outline-info font-fira-code mt-4">Say Hello</button>
+          <button class="font-fira-code mt-4 border border-green text-green px-4 py-2 rounded hover:bg-green hover:text-navy transition-colors">Say Hello</button>
         </a>
       </div>
     </div>
@@ -22,7 +22,3 @@
 <script setup>
 
 </script>
-
-<style scoped>
-
-</style>

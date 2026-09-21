@@ -1,10 +1,10 @@
 <template>
   <section id="experience">
-    <div style="min-height: 100vh" class="d-flex align-items-center">
-      <div style="max-width: 850px" class="text-start">
-        <h1 class="text-lightest-slate font-xl fw-bold"><span
-            class="text-info font-lg font-fira-code">02.</span> Where
-          I’ve Worked</h1>
+    <div class="min-h-screen flex items-center">
+      <div class="max-w-[850px] text-left">
+        <h1 class="text-lightest-slate font-xl font-bold"><span
+            class="text-green font-lg font-fira-code">02.</span> Where
+          I've Worked</h1>
         <div>
           <h1 class="font-lg">
             Full-Stack Developer, Bonyan Fan (2021 - Present)
@@ -48,7 +48,3 @@
 <script setup>
 
 </script>
-
-<style scoped>
-
-</style>

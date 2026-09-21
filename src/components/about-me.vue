@@ -1,10 +1,10 @@
 <template>
   <section id="about">
-    <div style="min-height: 100vh" class="d-flex justify-content-between align-items-center flex-column flex-md-row">
-      <div style="max-width: 850px" class="text-start">
+    <div class="min-h-screen flex justify-between items-center flex-col md:flex-row">
+      <div class="max-w-[850px] text-left">
         <div>
-          <h1 class="text-lightest-slate font-xl fw-bold"><span
-              class="text-info font-lg font-fira-code">01.</span> About Me</h1>
+          <h1 class="text-lightest-slate font-xl font-bold"><span
+              class="text-green font-lg font-fira-code">01.</span> About Me</h1>
         </div>
         <div class="font-md text-align-justify">
           <p>
@@ -22,7 +22,7 @@
             experience in Vue.js, Bootstrap, HTML, CSS, JS, and TS.
           </p>
           <p>
-            Here are a few technologies I’ve been working with recently:
+            Here are a few technologies I've been working with recently:
           </p>
         </div>
         <ul class="font-sm text-align-justify">
