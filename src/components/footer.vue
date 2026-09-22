@@ -86,7 +86,8 @@ onMounted(() => {
   background-color: var(--light-slate);
 }
 
-ul {
+
+.contact ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,6 +95,4 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-
 </style>
